@@ -10,7 +10,7 @@ The MLP is in charge of learning the correlations between channels and classific
 Here we train the MC-DCNN on a dataset of biometric data (ppg + accelerometer data time series), recorded over one month for 10 users. The MC-DCNN is trained to recoginze user ID based on its biometric data.
 We achieve a classification F1 score of 0.96+.
 
-This is a big improvement over a single channel DCNN implementation (F1 score ~0.85), where convolutions are performed over all channel simulatneously. 
+This is a big improvement over a single channel DCNN implementation (F1 score ~0.85), where convolutions are performed over all channel simultaneously. 
 
 Below is the train/test error from CV:
 
