@@ -3,7 +3,7 @@
 
 MC-DCNN (http://staff.ustc.edu.cn/~cheneh/paper_pdf/2014/Yi-Zheng-WAIM2014.pdf) architecture, implemented with lasagne/theano. 
 
-With the MC-DCNN architecture, features are first learned idependently on each channel with a
+With the MC-DCNN architecture, features are first learned idependently on each time series channel with a
 cascade of 1D convolutions and maxpooling, then the learned features are concatenated and fed into a MLP. 
 The MLP is in charge of learning the correlations between channels and classification.
 
