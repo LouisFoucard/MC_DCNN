@@ -9,7 +9,7 @@ The MLP is in charge of learning the correlations between channels and classific
 
 MC-DCNN architecture:
 
-![alt tag](https://github.com/LouisFoucard/MC_DCNN/blob/master/architecture.pdf)
+![alt tag](https://github.com/LouisFoucard/MC_DCNN/blob/master/architecture.png)
 
 Here we train the MC-DCNN on a dataset of biometric data (ppg + accelerometer data time series), recorded over one month for 10 users. The MC-DCNN is trained to recoginze user ID based on its biometric data.
 We achieve a classification F1 score of 0.96+.
