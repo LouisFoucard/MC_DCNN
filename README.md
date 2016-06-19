@@ -12,3 +12,5 @@ We achieve a classification F1 score of 0.97+.
 
 This is a big improvement over a single channel DCNN implementation (F1 score ~0.85), where convolutions are performed over all channel simulatneously. 
 
+
+![alt tag](https://github.com/LouisFoucard/MC_DCNN/blob/master/CV.png)
