@@ -12,6 +12,8 @@ We achieve a classification F1 score of 0.96+.
 
 This is a big improvement over a single channel DCNN implementation (F1 score ~0.85), where convolutions are performed over all channel simultaneously. 
 
+MC-DCNN also remove the need for engineering features: the convolutional and pooling layers are able to learn feature at different time scales. The input data is only slightly preprocessed, with smoothing and scaling.
+
 Below is the train/test error from CV:
 
 ![alt tag](https://github.com/LouisFoucard/MC_DCNN/blob/master/CV.png)
