@@ -1,4 +1,4 @@
-# MC_DCNN
+# MC-DCNN
 ## Multi channel deep convolutional neural network for time series classification.
 
 MC-DCNN (http://staff.ustc.edu.cn/~cheneh/paper_pdf/2014/Yi-Zheng-WAIM2014.pdf) architecture, implemented with lasagne/theano. 
